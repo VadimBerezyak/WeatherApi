@@ -1,3 +1,2 @@
-#api-key: "11524422ce31f1067481265a09c28f6f"
-#weatherUrl: "https://api.openweathermap.org"
-#cityName: "London"
+api-key: "11524422ce31f1067481265a09c28f6f"
+weather-url: "https://api.openweathermap.org"
