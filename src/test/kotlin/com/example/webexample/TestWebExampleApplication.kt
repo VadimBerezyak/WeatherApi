@@ -27,5 +27,5 @@ class TestWebExampleApplication {
 }
 
 fun main(args: Array<String>) {
-    fromApplication<WebExampleApplication>().with(TestWebExampleApplication::class).run(*args)
+    fromApplication<WeatherApplication>().with(TestWebExampleApplication::class).run(*args)
 }
