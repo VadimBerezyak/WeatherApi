@@ -1,16 +1,15 @@
 package com.example.webexample.service
 
 import com.example.webexample.dao.Weather
-import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.stereotype.Service
 import java.net.URI
 import java.net.http.HttpClient
 
 @Service
-class PublicApiService (private val weatherHttpClient: HttpClient,
-                        private val apiKey: String,
-                        private val cityName: String) {
+class WeatherService (private val weatherHttpClient: HttpClient,
+                      private val apiKey: String,
+                      private val cityName: String) {
 
 //    @Value("api-key") lateinit var apiKey: String
 //    @Value("weatherUrl") lateinit var weatherUrl: String

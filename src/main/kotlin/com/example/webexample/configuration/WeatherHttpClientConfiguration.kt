@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class KtorClientConfig {
-    @ConditionalOnMissingBean
+    @ConditionalOnMissingBean(KtorClientConfig::class)
     @Bean
     fun ktorHttpClient(): HttpClient {
         return HttpClient(CIO) {
