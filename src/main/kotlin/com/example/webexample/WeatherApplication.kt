@@ -1,6 +1,5 @@
 package com.example.webexample
 
-import WeatherHttpClientConfiguration
 import com.example.webexample.dao.Weather
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.EnableConfigurationProperties
